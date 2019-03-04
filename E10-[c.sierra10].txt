@@ -1,0 +1,6 @@
+
+Al realizar un trabajo de investigación en el que exista un problema de clasificación se requiere elegir el mejor clasificador par abordar el problema.
+Ante esta situación existe un sesgo puesto que el investigador siempre optará por elegir el que para él es el mejor. Sin embargo, no necesariamente este criterio conlleve a la elección del mejor clasificador, teniendo en cuenta además que no siempre el mismo clasificador funciona para todos los conjuntos de datos. 
+Es por esto que en el paper se evalúan 179 clasificadores diferentes de las familias: discriminant analysis, Bayesian methods, neural networks, decision trees, rule-based methods, boosting, bagging, stacking, random forest, otros métodos de ensemble, generalized linear models, nearest neighbor methods, partial least squares and principal component regression, logistic and multinomial regression, multivariate adaptive regression splines, y otros métodos. 
+El análisis se realizó con 121 datsets y se encuentra que los mejores clasificadores hacen parte de la familia de los random forests. Lo anterior genera sorpresa puesto que, pese a que es un método antiguo, tiene desempeño mucho mejor que clasificadores nuevos. 
+La familia de SVM también muestra clasificadores con un buen desempeño usando el kernel Gaussian, haciendo que estas dos familias sean las mejores en términos de clasificación.
